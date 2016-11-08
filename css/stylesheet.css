@@ -1,0 +1,106 @@
+/****************
+HEADING
+****************/
+
+header {
+  margin: 100px auto;
+}
+
+table {
+   margin: 150px auto 0 auto;
+}
+
+
+h1 {
+  display: block;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 3.0em;
+  text-align: center;
+}
+
+
+/****************
+LISTS
+****************/
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.main section {
+  display: inline-block;
+  float: left;
+}
+
+.info section {
+   display: inline-block;
+}
+
+.info table, th, td {
+   border: 2px solid black;
+   border-collapse: collapse;   
+}
+
+.main h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.main a {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.main ul {
+  margin: 0;
+  padding: .125em 0;
+  text-align: center;
+  list-style: none;
+}
+
+/****************
+COLORS
+****************/
+
+body {
+  /*background-image: url("Logo.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 0;*/
+  background-color: #2B303B;
+  color: #EFF1F5;
+}
+
+body a, body a:visited {
+  color: #65737E;
+}
+
+body a:hover {
+  color: #96B5B4;
+}
+
+
+.main ul {
+  background-color: #EFF1F5;
+}
+
+.teilnoten h3 {
+  background-color: #99dd11;
+}
+
+.benotet h3 {
+  background-color: #00bb11;
+}
+
+.unbenotet h3 {
+  background-color: #A3BE8C;
+}
+
+.wichtiges h3 {
+  background-color: #AB7967;
+}
