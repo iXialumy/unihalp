@@ -19,7 +19,7 @@
   }
    
   .main section:nth-child(5n) {
-    clear: left;
+    clear: center;
   }
    
 }
