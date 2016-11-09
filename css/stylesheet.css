@@ -46,6 +46,10 @@ LISTS
   margin: 0;
 }
 
+.email ul{
+  border-radius: 0px 0px 6px 6px;
+}
+
 .main a {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
@@ -102,4 +106,8 @@ body a:hover {
 
 .wichtiges h3 {
   background-color: #AB7967;
+}
+
+.email h3 {
+  background-color: #004d00;
 }
