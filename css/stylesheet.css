@@ -6,11 +6,6 @@ header {
   margin: 100px auto;
 }
 
-table {
-   margin: 150px auto 0 auto;
-}
-
-
 h1 {
   display: block;
   font-family: 'Bungee Inline', cursive;
@@ -31,15 +26,6 @@ LISTS
 .main section {
   display: inline-block;
   float: left;
-}
-
-.info section {
-   display: inline-block;
-}
-
-.info table, th, td {
-   border: 2px solid black;
-   border-collapse: collapse;   
 }
 
 .main h3 {
