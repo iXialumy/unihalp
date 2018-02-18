@@ -13,54 +13,68 @@ h1 {
   text-align: center;
 }
 
-
 /****************
 LISTS
 ****************/
 
-.wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+@media screen and (min-width: 240px) and (max-width: 839px) {
+  .container-1 div, .container-2 div, .container-3 div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
 }
 
-.main section {
-  display: inline-block;
-  float: left;
+@media screen and (min-width: 840px) {
+  .container-1, .container-2, .container-3 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+  }
+  .container-1 div, .container-2 div, .container-3 div {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 
-.main h3 {
+.unbenotet, .benotet, .teilnoten, .email, .wichtiges {
+  flex: 1;
+}
+
+h3 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
   width: 100%;
   text-align: center;
-  border-radius: 6px 6px 0px 0px;  
+  border-radius: 6px 6px 0px 0px;
   margin: 0;
 }
 
-.main h4 {
+h4 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
   width: 100%;
   text-align: center;
-  border-radius: 0px 0px 6px 6px;  
-  margin: 0;
-}
-
-.email ul{
   border-radius: 0px 0px 6px 6px;
+  margin: 0;
 }
 
-.main a {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.main ul {
+ul {
   margin: 0;
   padding: .125em 0;
   text-align: center;
   list-style: none;
+}
+
+.email ul {
+  border-radius: 0px 0px 6px 6px;
+}
+
+a {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 /****************
@@ -84,11 +98,11 @@ body a:hover {
   color: #96B5B4;
 }
 
-.main ul {
+ul {
   background-color: #EFF1F5;
 }
 
-.main h4 {
+h4 {
   background-color: #BC5252;
 }
 
