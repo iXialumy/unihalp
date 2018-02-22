@@ -18,7 +18,7 @@ LISTS
 ****************/
 
 @media screen and (min-width: 240px) and (max-width: 839px) {
-  .container-1 div, .container-2 div, .container-3 div {
+  .triplet div {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -26,13 +26,13 @@ LISTS
 }
 
 @media screen and (min-width: 840px) {
-  .container-1, .container-2, .container-3 {
+  .triplet {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2%;
   }
-  .container-1 div, .container-2 div, .container-3 div {
+  .triplet div {
     margin-left: 2%;
     margin-right: 2%;
   }
